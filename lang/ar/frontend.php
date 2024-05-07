@@ -10,19 +10,19 @@ return [
         "desktop_ourCompany" => "OUR COMPANY",
         "desktop_ceoMessageNav" => "CEO MESSAGE",
         "desktop_home" => "HOME",
-        "desktop_developments" => "DEVELOPMENTS",
-        "desktop_communities" => "COMMUNITIES",
-        "desktop_construction" => "CONSTRUCTIONS",
+        "desktop_developments" => "مشروعات التطوير العقاري",
+        "desktop_communities" => "المجتمعات",
+        "desktop_construction" => "الإنشاءات",
         "desktop_contact_us" => "CONTACT",
         "desktop_news" => "NEWS",
         "desktop_media" => "MEDIA",
-        "desktop_press_release" => "PRESS RELEASES",
-        "desktop_blogs" => "BLOGS",
-        "desktop_gallery" => "GALLERY",
-        "desktop_careers" => "CAREERS",
-        "desktop_agency" => "AGENCY REGISTRATION",
-        "desktop_why_dubai" => "WHY DUBAI?",
-        "desktop_career_development_center" => "CAREER DEVELOPMENT CENTER",
+        "desktop_press_release" => "البيانات الصحفية",
+        "desktop_blogs" => "المدونات",
+        "desktop_gallery" => "معرض الصور",
+        "desktop_careers" => "الوظائف",
+        "desktop_agency" => "تسجيل وكالة",
+        "desktop_why_dubai" => "لماذا دبي؟",
+        "desktop_career_development_center" => "مركز التطوير الوظيفي",
 
 
         "mobile_aboutUs" => "About Us",
@@ -328,14 +328,5 @@ return [
         As the day unfolds, embark on a journey to the iconic Burj Khalifa, a sentinel of the skyline, piercing the heavens with its majestic spire. Here, the cityscape unfolds beneath your gaze, a breathtaking panorama that weaves tales of ambition and achievement.
 
         For those seeking the embrace of nature, the Miracle Garden blooms like a canvas of colors, a floral tapestry that whispers secrets of life in the heart of the desert. Amidst petals and fragrant breezes, find solace and renewal in this oasis of serenity.",
-
-
-
-
-
-
-
-
-
 
 ];
