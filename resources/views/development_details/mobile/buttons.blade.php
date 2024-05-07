@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="flex flex-col items-start w-full" id="form_ready">
                 <div class="p-4 flex items-stretch w-full">
                     <div class="font-thin text-xl text-gray-900">Register Your Interest</div>
@@ -314,7 +314,7 @@
                         </button>
                         <button type="" id="submitForm" class="bg-black hover:bg-white border border-black text-white hover:text-black font-bold py-2 px-4 rounded-0 ml-3">
                             Register Your Interest
-                        </button> 
+                        </button>
                         <button type="button" id="submitVerifying" hidden disabled class="bg-transparent border border-black text-black font-bold py-2 px-4 rounded-0 ml-3"><div id="loading"></div> Verifying</button>
                     </div>
                 </form>
@@ -351,16 +351,16 @@
             // Function to set a cookie
             function setCookie(name, value, daysToExpire) {
                 var expires = "";
-                
+
                 if (daysToExpire) {
                     var date = new Date();
                     date.setTime(date.getTime() + (daysToExpire * 5 * 60 * 1000));
                     expires = "; expires=" + date.toUTCString();
                 }
-                
+
                 document.cookie = name + "=" + value + expires + "; path=/";
             };
-            
+
             // Function to get a cookie
             function getCookie(cookieName) {
                 var name = cookieName + "=";
@@ -413,7 +413,7 @@
                         data: formData,
                         processData: false,
                         contentType: false,
-                        success:function(data) 
+                        success:function(data)
                         {
                             if($.isEmptyObject(data.error)){ //---if success
                                 setCookie("_q2vWT4junrLR", true, 1); //---set a cookie
@@ -426,8 +426,8 @@
 
                 });
             }
-            
-            
+
+
         });
     </script>
 
